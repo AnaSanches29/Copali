@@ -1,0 +1,85 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      display: flex;
+    }
+
+    header h1{
+        font-size: 30px;
+        text-align: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .logo{
+        display: flex;
+        width: 80px;
+        height: 80px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    nav ul li {
+      display: inline;
+      margin-left: 50px;
+    }
+    nav ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      text-align: right;
+      
+    }
+    .hero {
+      background: url('https://scontent.fcjs3-2.fna.fbcdn.net/v/t39.30808-6/464237873_860807082828466_6399568425355919257_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=RZbU4WGenHwQ7kNvwGa8eVY&_nc_oc=AdmKQJh8BYWSBctUfsey6czHXCA6BuB8Sgw2VaCuXcuqZmoACubWBTEVFVDLUsYGqB0&_nc_zt=23&_nc_ht=scontent.fcjs3-2.fna&_nc_gid=PPFy-8f0FzIFtE0imAAReg&oh=00_AfUqgz705Ki6g-1zTjmTratClOhmV-YDo43_nQ7XPdwQRg&oe=68A5634B') center/cover no-repeat;
+      color: #003366(226, 24, 24);
+      text-align: center;
+      padding: 100px 20px;
+      height: 550px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+    }
+    .programs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .program {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+    .program img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #003366;
+       padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    footer h1{
+        padding: 20px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+    }
